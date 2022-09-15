@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Saint";
+  src: url(../font/SaintMonica.ttf);
+}
+@font-face {
+  font-family: "Questrial";
+  src: url(../font/Questrial.ttf);
+}
+
+.questrial_font {
+  font-family: Questrial;
+}

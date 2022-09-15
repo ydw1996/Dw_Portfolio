@@ -1,0 +1,73 @@
+#sec01 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.sec01__img {
+  width: 100%;
+}
+.sec01__img img {
+  width: 35%;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.sec01__title {
+  width: 120%;
+  font-size: 9.8vw;
+  font-family: Saint;
+  text-align: center;
+  display: block;
+  position: absolute;
+  left: -20%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+}
+.st01 {
+  top: 48%;
+}
+.st02 {
+  top: 60%;
+  left: -13%;
+  font-size: 8.8vw;
+}
+.st03 {
+  top: 70%;
+  left: -10%;
+  font-size: 7.8vw;
+}
+.st04 {
+  top: 79%;
+  left: -10%;
+  font-size: 6.8vw;
+}
+.st05 {
+  top: 87%;
+  left: -10%;
+  font-size: 5.8vw;
+}
+.st06 {
+  top: 94%;
+  left: -10%;
+  font-size: 4.8vw;
+}
+.st07 {
+  top: 100%;
+  left: -10%;
+  font-size: 3.8vw;
+}
+
+.sub01__subtitle {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5%;
+  transform: translateY(-50%);
+  letter-spacing: 10px;
+}

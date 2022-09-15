@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 1;
+}
+.header__inner {
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 0 35px;
+  display: flex;
+}
+.header__logo {
+  width: 10%;
+  height: 100%;
+}
+.header__menu {
+  width: 80%;
+  color: #fff;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.header__menu ul {
+  display: block;
+}
+.header__menu li {
+  display: inline-block;
+}
+.header__menu li a {
+  padding: 10px 30px;
+  margin: 0 5px;
+}
+.header__right {
+  width: 10%;
+  height: 100%;
+}
