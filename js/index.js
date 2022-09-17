@@ -11,7 +11,7 @@ $(document).ready(function () {
   $(".text").fadeIn(500);
 });
 
-$(document).ready(function () {
+/* $(document).ready(function () {
   var jbTime = 60;
   $(".st07").animate(
     {
@@ -125,4 +125,4 @@ $(document).ready(function () {
       );
     }
   );
-});
+}); */
