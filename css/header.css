@@ -12,15 +12,35 @@ header {
   width: 100%;
   height: 100px;
   box-sizing: border-box;
-  padding: 0 35px;
+  padding: 0 30px;
   display: flex;
 }
+
+/* header logo */
 .header__logo {
-  width: 10%;
+  width: 15%;
   height: 100%;
 }
+.header__logo a {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.header__logo a span {
+  font-size: 1.2vw;
+  line-height: 50px;
+}
+
+/* header menu */
 .header__menu {
-  width: 80%;
+  width: 70%;
   color: #fff;
   letter-spacing: 10px;
   text-align: center;
@@ -33,10 +53,13 @@ header {
   display: inline-block;
 }
 .header__menu li a {
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 0 5px;
+  font-size: 0.85vw;
 }
+
+/* header right */
 .header__right {
-  width: 10%;
+  width: 15%;
   height: 100%;
 }

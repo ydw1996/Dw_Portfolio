@@ -5,11 +5,14 @@ $(document).ready(function () {
   $(".header__menu ul").fadeIn(1500);
 });
 $(document).ready(function () {
+  $(".sub01__subtitle").fadeIn(1500);
+});
+$(document).ready(function () {
   $(".sec01__img").fadeIn(500);
 });
 
 $(document).ready(function () {
-  var jbTime = 80;
+  var jbTime = 60;
   $(".st07").animate(
     {
       opacity: "1",
