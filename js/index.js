@@ -8,7 +8,7 @@ $(document).ready(function () {
   $(".sub01__subtitle").fadeIn(1500);
 });
 $(document).ready(function () {
-  $(".sec01__img").fadeIn(500);
+  $(".text").fadeIn(500);
 });
 
 $(document).ready(function () {
@@ -49,7 +49,7 @@ $(document).ready(function () {
                         },
                         jbTime,
                         function () {
-                          $(".st01").animate(
+                          $("h1").animate(
                             {
                               opacity: "1",
                             },
@@ -107,7 +107,7 @@ $(document).ready(function () {
                         },
                         jbTime,
                         function () {
-                          $(".st01").animate(
+                          $("h1").animate(
                             {
                               opacity: "1",
                             },

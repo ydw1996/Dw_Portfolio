@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dw_portfolio</title>
-
-    <link rel="stylesheet" href="css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="css/font.css" type="text/css" />
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css" type="text/css" />
-    <link rel="stylesheet" href="css/sec01.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/index.js"></script>
-  </head>
-  <body>
-    <div id="wrap">
-      <!-- header -->
+</head>
+<body>
+    <div class="scroll">0</div>
+
+
+    <div id="contents">
       <header>
         <div class="header__inner">
           <div class="header__logo">
@@ -44,26 +44,63 @@
           <div class="header__right"></div>
         </div>
       </header>
-      <!-- main -->
-      <main id="main">
-        <!-- sec01 -->
-        <section id="sec01">
-          <div class="sec01__img">
-            <img src="img/letter-X.png" />
-          </div>
-          <span class="sec01__title st01">Professional Frontend Developer</span>
-          <span class="sec01__title st02">Professional Frontend Developer</span>
-          <span class="sec01__title st03">Professional Frontend Developer</span>
-          <span class="sec01__title st04">Professional Frontend Developer</span>
-          <span class="sec01__title st05">Professional Frontend Developer</span>
-          <span class="sec01__title st06">Professional Frontend Developer</span>
-          <span class="sec01__title st07">Professional Frontend Developer</span>
-          <p class="sub01__subtitle">
-            <span class="questrial_font">PORTFOLIO</span>
-          </p>
+      <!-- //header -->
+        <section id="section1">
+            <h1 
+                data-0="transform: translateX(0px)"
+                data-1000="transform: translateX(-400px)"
+            >Professional Frontend Developer</h1>
+            <div class="text"
+            data-0="transform: rotateY(0deg)"
+            data-500="transform: rotateY(180deg)"
+            >
+                <img src="img/letter-X.png" alt="">
+            </div>
         </section>
-        <!-- sec02 -->
-      </main>
+        <!-- //section1 -->
+        <section id="section2">
+          <div class="about">ABOUT</div>
+          <p class>어떤 일이라도 <span>노력</span>하고 <span>즐기면</span>  그 결과는 <span>빛</span>을 바란다고<br/>
+            생각합니다. 신입의 <span>열정</span>과 <span>도전정신</span>을 깊숙히 새기며 배움에 <br/>
+            있어 <span>겸손함</span>을 유지하며 세부적인 곳까지<br/>
+            <span>파고드는 개발자</span>가 되겠습니다.</p>
+          <div class="stone" 
+                data-0="transform: translateY(550px)"
+                data-1000="transform: translateY(400px)">
+            <img src="img/black-stone.png" alt="">
+          </div>
+          <div class="stone_02" 
+                data-0="transform: translateY(250px)"
+                data-1000="transform: translateY(100px)" alt="">
+            <img src="img/gold-stone.png">
+          </div>
+          <div class="fragments" 
+                data-0="transform: translateY(350px)"
+                data-1000="transform: translateY(500px)" alt="">
+            <img src="img/fragments.png">
+          </div>
+        </section>
+        <!-- //section2 -->
+        <section id="section3"></section><!-- //section3 -->
+        <section id="section4"></section><!-- //section4 -->
+        <section id="section5"></section><!-- //section5 -->
+        <section id="section6"></section><!-- //section6 -->
     </div>
-  </body>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script>
+        let s = skrollr.init({
+            smoothScrolling: true
+        });
+
+        function scroll(){
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            document.querySelector(".scroll").innerHTML = scrollTop;
+            requestAnimationFrame(scroll);
+        }
+        scroll();
+    </script>
+</body>
 </html>

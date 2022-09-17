@@ -3,9 +3,9 @@ header {
   height: 100px;
   background-color: #000;
   position: absolute;
-  backdrop-filter: blur(10px);
   position: fixed;
   z-index: 1;
+  overflow: hidden;
 }
 .header__inner {
   align-items: center;
@@ -29,12 +29,14 @@ header {
   box-sizing: border-box;
   position: absolute;
   top: 50%;
+  margin-left: 40px;
   transform: translateY(-50%);
   text-align: center;
+  color: #fff;
 }
 
 .header__logo a span {
-  font-size: 1.2vw;
+  font-size: 20px;
   line-height: 50px;
 }
 
@@ -44,6 +46,7 @@ header {
   color: #fff;
   letter-spacing: 10px;
   text-align: center;
+  font-family: "Questrial";
 }
 .header__menu ul {
   display: block;

@@ -1,10 +1,14 @@
 @font-face {
   font-family: "Saint";
-  src: url(../font/SaintMonica.ttf);
+  src: url(../fonts/SaintMonica.ttf);
 }
 @font-face {
   font-family: "Questrial";
-  src: url(../font/Questrial.ttf);
+  src: url(../fonts/Questrial.ttf);
+}
+@font-face {
+  font-family: "Gmarket";
+  src: url(../fonts/GmarketSansTTFMedium.ttf);
 }
 
 .questrial_font {
