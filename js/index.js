@@ -4,6 +4,9 @@ var page = 1;
 $(document).ready(function () {
   $(".header__menu ul").fadeIn(1500);
 });
+$(document).ready(function () {
+  $(".sec01__img").fadeIn(500);
+});
 
 $(document).ready(function () {
   var jbTime = 80;
@@ -62,8 +65,6 @@ $(document).ready(function () {
     }
   );
 });
-
-
 
 $(document).ready(function () {
   var jbTime = 200;

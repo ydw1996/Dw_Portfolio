@@ -6,6 +6,7 @@
 }
 .sec01__img {
   width: 100%;
+  display: none;
 }
 .sec01__img img {
   width: 35%;

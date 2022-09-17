@@ -27,6 +27,7 @@ header {
 }
 .header__menu ul {
   display: block;
+  display: none;
 }
 .header__menu li {
   display: inline-block;
