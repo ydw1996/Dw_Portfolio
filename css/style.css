@@ -1,7 +1,8 @@
-/* layout */
-#contents {
-  overflow: hidden;
-}
+/* body {
+  background: #000;
+} */
+
+/* section1 */
 #section1 {
   width: 100%;
   height: 100vh;
@@ -12,37 +13,7 @@
   overflow: hidden;
   position: relative;
 }
-#section2 {
-  width: 100%;
-  height: 200vh;
-  background: #000;
-  overflow: hidden;
-  position: relative;
-}
-#section3 {
-}
-#section4 {
-}
-#section5 {
-}
-#section6 {
-}
 
-/* scroll */
-.scroll {
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.3);
-  color: #fff;
-  line-height: 40px;
-  text-align: center;
-  z-index: 99;
-}
-
-/* section1 */
 #section1 h1 {
   color: #fff;
   font-size: 8vw;
@@ -58,7 +29,7 @@
 .sec01__title {
   width: 120%;
   font-size: 9.8vw;
-  font-family: "SaintMonicaRegular";
+  font-family: Saint;
   text-align: center;
   display: block;
   position: absolute;
@@ -66,7 +37,14 @@
   transform: translateY(-50%);
   white-space: nowrap;
   overflow: hidden;
-  z-index: 90;
+  font-family: "SaintMonicaRegular";
+  opacity: 0;
+}
+
+.st01 {
+  top: 48%;
+  color: #fff;
+  font-size: 9.8vw;
 }
 .st02 {
   top: 60%;
@@ -99,7 +77,25 @@
   font-size: 3.8vw;
 }
 
+/* .sub01__subtitle {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5%;
+  transform: translateY(-50%);
+  letter-spacing: 10px;
+} */
+
 /* section2 */
+#section2 {
+  width: 100%;
+  height: 200vh;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
 #section2 .about {
   position: absolute;
   top: 5%;
@@ -139,4 +135,144 @@
 
 #section2 span {
   color: #88d1ff;
+}
+
+/* section03 */
+#section3 {
+  width: 100%;
+  height: 3300px;
+  background: #000;
+  position: relative;
+}
+
+#section3 .sec03 {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#section3 h3 {
+  font-family: "SaintMonicaRegular";
+  line-height: 120%;
+  transform: rotate(-20deg);
+  position: relative;
+  left: -10%;
+  top: -50%;
+}
+
+#section3 h3.sec03_01 {
+  font-size: 15vw;
+}
+
+#section3 h3.sec03_02,
+.sec03_03 {
+  font-size: 12vw;
+}
+
+#section3 h3.sec03_04,
+.sec03_05 {
+  font-size: 10vw;
+}
+#section3 h3.sec03_06,
+.sec03_07 {
+  font-size: 8vw;
+}
+#section3 h3.sec03_08,
+.sec03_09 {
+  font-size: 6vw;
+}
+#section3 h3 em {
+  color: #88d1ff;
+}
+
+/* section04 */
+#section4 {
+  width: 100%;
+  height: 4000px;
+  background: #000;
+  position: relative;
+}
+
+#section4 .sec04 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+#section4 h2 {
+  font-family: "SaintMonicaRegular";
+  font-size: 12vw;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section4 .sec04 .c1 {
+  left: 25%;
+}
+#section4 .sec04 .c2 {
+  left: 31.5%;
+}
+#section4 .sec04 .c3 {
+  left: 38.5%;
+}
+#section4 .sec04 .c4 {
+  left: 47.5%;
+}
+#section4 .sec04 .c5 {
+  left: 51%;
+}
+#section4 .sec04 .c6 {
+  left: 57.5%;
+}
+#section4 .sec04 .c7 {
+  left: 66%;
+}
+#section4 .sec04 .c8 {
+  left: 72.5%;
+}
+
+#section4 img {
+  width: 12vw;
+  height: 18vw;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section4 .card01 {
+  transform: translate(-50%, -50%) rotate(15deg);
+}
+#section4 .card02 {
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+#section4 .card03 {
+  transform: translate(-50%, -50%) rotate(5deg);
+}
+#section4 .card04 {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+#section4 .card05 {
+  transform: translate(-50%, -50%) rotate(-5deg);
+}
+#section4 .card06 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#section4 .card07 {
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+#section4 .card08 {
+  transform: translate(-50%, -50%) rotate(-2deg);
+}
+
+/* section5 */
+#section5 {
+}
+#section6 {
 }
