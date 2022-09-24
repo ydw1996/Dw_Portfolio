@@ -140,7 +140,7 @@
 /* section03 */
 #section3 {
   width: 100%;
-  height: 3300px;
+  height: 250vh;
   background: #000;
   position: relative;
 }
@@ -190,7 +190,7 @@
 /* section04 */
 #section4 {
   width: 100%;
-  height: 4000px;
+  height: 550vh;
   background: #000;
   position: relative;
 }
@@ -198,16 +198,16 @@
 #section4 .sec04 {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   position: sticky;
   top: 0;
+  white-space: nowrap;
 }
 
 #section4 h2 {
   font-family: "SaintMonicaRegular";
   font-size: 12vw;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -241,38 +241,38 @@
   width: 12vw;
   height: 18vw;
   position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 45%;
 }
 
-#section4 .card01 {
-  transform: translate(-50%, -50%) rotate(15deg);
+#section4 .card01 {  
 }
-#section4 .card02 {
-  transform: translate(-50%, -50%) rotate(10deg);
+#section4 .card02 {  
 }
-#section4 .card03 {
-  transform: translate(-50%, -50%) rotate(5deg);
+#section4 .card03 {  
 }
-#section4 .card04 {
-  transform: translate(-50%, -50%) rotate(0deg);
+#section4 .card04 {  
 }
-#section4 .card05 {
-  transform: translate(-50%, -50%) rotate(-5deg);
+#section4 .card05 {  
+  z-index: -1;
 }
 #section4 .card06 {
-  transform: translate(-50%, -50%) rotate(-10deg);
+  z-index: -2;  
 }
 #section4 .card07 {
-  transform: translate(-50%, -50%) rotate(-15deg);
+  z-index: -3;  
 }
-#section4 .card08 {
-  transform: translate(-50%, -50%) rotate(-2deg);
+#section4 .card08 {  
+  z-index: -4;
 }
 
 /* section5 */
 #section5 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 300px;
+  background-image: url(../img/sec05.PNG) ;
+  background-size: cover;
 }
 #section6 {
 }
