@@ -90,7 +90,7 @@
 /* section2 */
 #section2 {
   width: 100%;
-  height: 200vh;
+  height: 200rem;
   background: #000;
   overflow: hidden;
   position: relative;
@@ -140,7 +140,7 @@
 /* section03 */
 #section3 {
   width: 100%;
-  height: 250vh;
+  height: 250rem;
   background: #000;
   position: relative;
 }
@@ -190,7 +190,7 @@
 /* section04 */
 #section4 {
   width: 100%;
-  height: 550vh;
+  height: 450rem;
   background: #000;
   position: relative;
 }
@@ -269,10 +269,73 @@
 /* section5 */
 #section5 {
   width: 100%;
-  height: 100vh;
-  margin-top: 300px;
-  background-image: url(../img/sec05.PNG) ;
-  background-size: cover;
+  height: 300rem;
+  margin-top: 50vh;
 }
+
+#section5 .sec05 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+#section5 .sec05 .project{
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+#section5 .sec05 .lush{
+}
+
+#section5 .sec05 .puma{
+}
+
+#section5 .sec05 .pic_box{
+  display: flex;
+}
+
+#section5 .sec05 .lt{
+  flex-direction: row;
+}
+
+#section5 .sec05 .rg{
+  flex-direction: row-reverse;
+}
+#section5 .sec05 .pic_item{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section5 .sec05 .pic_item2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#section5 img {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter:grayscale(100%);
+}
+
+
+/* section06 */
 #section6 {
+  width: 250vw;
+  height: 100vh;
+}
+
+#section6 .sec06 {
+  width: 100%;
+  height: 100%;
 }
