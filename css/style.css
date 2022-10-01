@@ -19,11 +19,15 @@
   font-size: 8vw;
   font-family: "SaintMonicaRegular";
   white-space: nowrap;
+  position: absolute;
+  top: 30%;
 }
 #section1 .text {
-  position: absolute;
-  width: 30vw;
+  width: 34vw;
   display: none;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
 }
 
 .sec01__title {
@@ -42,12 +46,12 @@
 }
 
 .st01 {
-  top: 48%;
+  top: 40%;
   color: #fff;
   font-size: 9.8vw;
 }
 .st02 {
-  top: 60%;
+  top: 56%;
   left: -13%;
   font-size: 8.8vw;
 }
@@ -77,20 +81,47 @@
   font-size: 3.8vw;
 }
 
-/* .sub01__subtitle {
+.sub_title {
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.5vw;
   position: absolute;
   bottom: 5%;
   transform: translateY(-50%);
-  letter-spacing: 10px;
-} */
+}
 
+.Quest {
+  font-family: "Questrial";
+}
+.Saint {
+  font-family: "SaintMonicaRegular";
+}
+
+.sec01_circle {
+  position: absolute;
+  top: 42%;
+  right: 10%;
+  width: 18vw;
+  height: 18vw;
+  box-sizing: border-box;
+  border-radius: 9vw;
+  border: solid 2px #88d1ff;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: NONE;
+}
+
+.sec01_circle span {
+  position: absolute;
+  top: 60%;
+  right: 30%;
+  font-size: 1vw;
+  color: #88d1ff;
+}
 /* section2 */
 #section2 {
   width: 100%;
-  height: 200rem;
+  height: 250rem;
   background: #000;
   position: relative;
   overflow: hidden;
@@ -110,7 +141,7 @@
 }
 #section2 p {
   width: 100%;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -145,6 +176,7 @@
   position: relative;
   width: 100%;
   height: 100rem;
+  margin-top: 25rem;
 }
 
 #section2 .sec02_box {
@@ -153,17 +185,47 @@
 }
 #section2 .sec02_con {
   font-family: "Questrial";
-  font-size: 6.5vw;
+  font-size: 5.5vw;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 35%;
   transform: translate(-50%, -50%);
-  line-height: 5.5vw;
+  line-height: 4.5vw;
 }
-
 #section2 .sec02_con span {
   font-family: "SaintMonicaRegular";
 }
+
+#section2 .sec02_main {
+  position: absolute;
+  top: 50%;
+  right: -3%;
+  transform: translate(-50%, -50%);
+}
+
+#section2 .sec02_main img {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  width: 17vw;
+  filter: brightness(0.8);
+}
+#section2 .sec02_img {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  transform: translate(-50%, -50%);
+}
+#section2 .sec02_img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15vw;
+  filter: brightness(0.5);
+}
+
 /* section03 */
 #section3 {
   width: 100%;
@@ -559,7 +621,7 @@ h4 {
 .fix {
   position: absolute;
   margin-top: 130vh;
-  height: 800rem;
+  height: 850rem;
   width: 100%;
   top: 0;
 }
