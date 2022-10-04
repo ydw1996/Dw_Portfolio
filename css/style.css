@@ -193,17 +193,92 @@
   width: 100%;
   height: 100%;
 }
+
 #section2_add .sec02_con {
   font-family: "Questrial";
-  font-size: 6.5vw;
+}
+#section2_add .sec02_con span {
+  font-family: "SaintMonicaRegular";
+}
+
+#section2_add .sec02_A {
   position: absolute;
-  top: 50%;
-  left: 8%;
   transform: translate(0%, -50%);
-  line-height: 5.5vw;
   width: 100%;
   height: 60vh;
+  font-size: 6.5vw;
+  line-height: 5.5vw;
+  top: 50%;
+  left: 10%;
+  /* display: none; */
 }
+
+#section2_add .sec02_B {
+  position: absolute;
+  transform: translate(0%, -50%);
+  width: 100%;
+  height: 60vh;
+  font-size: 8vw;
+  line-height: 7.5vw;
+  top: 40%;
+  left: -5%;
+}
+
+#section2_add .sec02_con em {
+  opacity: 0;
+}
+#section2_add .sec02_con .op {
+  opacity: 1;
+}
+
+/* sec02_con02 */
+#section2_add .sec02_A .A01 {
+  position: absolute;
+}
+#section2_add .sec02_A .A02 {
+  position: absolute;
+  top: 20%;
+}
+#section2_add .sec02_A .A03 {
+  position: absolute;
+  top: 39%;
+}
+#section2_add .sec02_A .A04 {
+  position: absolute;
+  top: 60%;
+}
+#section2_add .sec02_A .A05 {
+  position: absolute;
+  top: 80%;
+}
+
+/* sec02_con02 */
+#section2_add .sec02_B .B01 {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+}
+#section2_add .sec02_B .B02 {
+  position: absolute;
+  top: 25%;
+  left: -1%;
+}
+#section2_add .sec02_B .B03 {
+  position: absolute;
+  top: 52%;
+  left: 7%;
+}
+#section2_add .sec02_B .B04 {
+  position: absolute;
+  top: 78%;
+  left: 12%;
+}
+#section2_add .sec02_B .B05 {
+  position: absolute;
+  top: 105%;
+  left: 4%;
+}
+
 /* #section2_add .sec02_con .to01.tototo01 {
   animation: tototo01 1s ease-in-out infinite alternate-reverse;
 }
@@ -215,47 +290,44 @@
     font-size: 8vw;
   }
 } */
-#section2_add .sec02_con em {
+
+/* #section2_add .sec02_con em {
   opacity: 0;
 }
 #section2_add .sec02_con .tototo01 {
   font-size: 8vw;
   opacity: 1;
   position: absolute;
-  transform: translate(-20%, -50%);
+  transform: translate(-10%, -30%);
 }
 #section2_add .sec02_con .tototo02 {
   font-size: 8vw;
   opacity: 1;
   position: absolute;
-  transform: translate(20%, -20%);
+  transform: translate(10%, -20%);
 }
 #section2_add .sec02_con .tototo03 {
   font-size: 8vw;
   opacity: 1;
   position: absolute;
-  transform: translate(-20%, -20%);
+  transform: translate(-10%, -20%);
 }
 #section2_add .sec02_con .tototo04 {
   font-size: 8vw;
   opacity: 1;
   position: absolute;
-  transform: translate(20%, -20%);
+  transform: translate(10%, -20%);
 }
 #section2_add .sec02_con .tototo05 {
   font-size: 8vw;
   opacity: 1;
   position: absolute;
-  transform: translate(-20%, 50%);
+  transform: translate(-10%, 30%);
 }
 
 #section2_add .sec02_con .op {
   opacity: 1;
-}
-
-#section2_add .sec02_con span {
-  font-family: "SaintMonicaRegular";
-}
+} */
 
 #section2_add .sec02_main {
   position: absolute;
