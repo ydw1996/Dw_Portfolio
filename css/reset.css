@@ -4,8 +4,6 @@
   font-style: normal;
   src: url("fonts/SaintMonicaRegular.eot");
   src: url("fonts/SaintMonicaRegular.eot?#iefix") format("embedded-opentype"),
-    url("fonts/SaintMonicaRegular.woff2") format("woff2"),
-    url("fonts/SaintMonicaRegular.woff") format("woff"),
     url("../fonts/SaintMonica.ttf") format("truetype");
   font-display: swap;
 }
