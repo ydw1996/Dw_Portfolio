@@ -308,7 +308,7 @@ $(document).scroll(() => {
         $(".sec02_A .A05").removeClass("op");
         $(".sec02_C .C05").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .C05").addClass("op");
+          $(".sec02_D .D05").addClass("op");
           setTimeout(() => {
             $(".sec02_C .C05").removeClass("op");
             setTimeout(() => {
