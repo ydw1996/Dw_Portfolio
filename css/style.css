@@ -651,14 +651,14 @@
   overflow: hidden;
 }
 
-#section5 .sec05 .lush {
+#section5 .sec05 .left {
   position: relative;
   display: flex;
   width: 100%;
   height: 100%;
 }
 
-#section5 .sec05 .puma {
+#section5 .sec05 .right {
   position: relative;
   display: flex;
   width: 100%;
@@ -752,17 +752,17 @@ h4 {
   padding: 0.5vw 1vw;
 }
 
-#section5 .puma .project-info {
+#section5 .right .project-info {
   color: #88d1ff;
 }
-#section5 .puma .project-info-btn1 {
+#section5 .right .project-info-btn1 {
   border: 2px solid #88d1ff;
 }
 
 /* section06 */
 #section6 {
   width: 100%;
-  height: 250rem;
+  height: 300rem;
 }
 
 #section6 .sec06 {
@@ -781,14 +781,14 @@ h4 {
   overflow: hidden;
 }
 
-#section6 .sec06 .lush {
+#section6 .sec06 .left {
   position: relative;
   display: flex;
   width: 100%;
   height: 100%;
 }
 
-#section6 .sec06 .puma {
+#section6 .sec06 .right {
   position: relative;
   display: flex;
   width: 100%;
@@ -882,11 +882,283 @@ h4 {
   padding: 0.5vw 1vw;
 }
 
-#section6 .puma .project-info {
+#section6 .right .project-info {
   color: #88d1ff;
 }
-#section6 .puma .project-info-btn1 {
+#section6 .right .project-info-btn1 {
   border: 2px solid #88d1ff;
+}
+
+/* section07 */
+#section7 {
+  width: 100%;
+  height: 300rem;
+}
+
+#section7 .sec07 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+#section7 .sec07 .project {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#section7 .sec07 .left {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#section7 .sec07 .right {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#section7 .sec07 .pic_box {
+  display: flex;
+}
+
+#section7 .sec07 .lt {
+  flex-direction: row;
+}
+
+#section7 .sec07 .rg {
+  flex-direction: row-reverse;
+}
+
+#section7 .sec07 .pic_item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section7 .sec07 .pic_item2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#section7 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
+}
+
+#section7 img:hover {
+  filter: none;
+  transition-duration: 1s;
+  width: 110%;
+}
+
+#section7 .project-info {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  font-family: "SaintMonicaRegular";
+  z-index: 99;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+}
+h4 {
+}
+#section7 .project-info-h1 {
+  line-height: 5vw;
+  text-align: center;
+  cursor: default;
+}
+
+#section7 .project-info-mask {
+  overflow: hidden;
+  height: 5vw;
+}
+
+#section7 .project-info-nf {
+  font-size: 6vw;
+}
+
+#section7 .project-info-btn {
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#section7 .project-info-btn1 {
+  width: 40%;
+  font-size: 1vw;
+  border-radius: 5vw;
+  border: 2px solid #fff;
+  padding: 0.5vw 1vw;
+}
+
+#section7 .right .project-info {
+  color: #88d1ff;
+}
+#section7 .right .project-info-btn1 {
+  border: 2px solid #88d1ff;
+}
+
+/* section07 */
+#section8 {
+  width: 100%;
+  height: 1500rem;
+}
+
+#section8 .sec08 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+#section8 .sec08 .script {
+  width: 400vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+#section8 .sec08 .script .header {
+  position: absolute;
+  width: 400%;
+  height: 80px;
+  border-bottom: 1px solid #fff;
+}
+
+#section8 .sec08 .script .main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#section8 .sec08 .script .main_img {
+  width: 32vw;
+  height: 32vw;
+  border-radius: 16vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/section8/script_main.jpg);
+  background-size: cover;
+}
+#section8 .sec08 .script .txt {
+  font-family: "SaintMonicaRegular";
+  font-size: 4.5vw;
+  line-height: 6vw;
+}
+
+#section8 .sec08 .script .txt .sc01 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#section8 .sec08 .script .txt .sc02 {
+  position: absolute;
+  position: absolute;
+  top: 49%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+#section8 .sec08 .script .txt .sc03 {
+  position: absolute;
+  top: 62%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+/* txt_roll */
+#section8 .sec08 .script .txt_roll {
+  position: absolute;
+  width: 4vw;
+  height: 100vh;
+  right: 0;
+  margin-top: 80px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  writing-mode: vertical-rl;
+  flex-direction: column;
+  font-size: 1.2vw;
+}
+
+#section8 .sec08 .script .txt_roll span {
+  color: #88d1ff;
+}
+#section8 .sec08 .script .roll_right {
+  width: 50%;
+  height: 130vh;
+  padding-right: 0.3vw;
+  white-space: nowrap;
+}
+#section8 .sec08 .script .roll_left {
+  width: 50%;
+  height: 130vh;
+  padding-right: 0.3vw;
+  white-space: nowrap;
+}
+
+#section8 .sec08 .script .script_line {
+  width: 1.5vw;
+  height: 100vh;
+  background-color: #0a97fe;
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+#section8 .sec08 .script .script_img {
+  width: 32vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+}
+/* script02 */
+#section8 .sec08 .script .script_02 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+/* script02 */
+#section8 .sec08 .script .script_03 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+/* script02 */
+#section8 .sec08 .script .script_04 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 /* fix_txt */
