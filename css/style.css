@@ -1205,19 +1205,18 @@ h4 {
 #section8 .sec08 .script .script_txt {
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 37%;
   left: 55%;
   transform: translate(-50%, -50%);
-  font-family: "Teko";
   font-weight: 300;
-  font-size: 17vw;
+  font-size: 9vw;
+  font-family: "SaintMonicaRegular";
 }
 #section8 .sec08 .script .txt_line{
-  width: 30vw;
   height: 2.5vh;
   position: absolute;
   top: 37%;
-  left: 44%;
+  left: 45%;
   transform: translate(-50%, -50%);
   background-color: #0a97fe;
 }
@@ -1225,7 +1224,7 @@ h4 {
   width: 22vw;
   height: 7vh;
   position: absolute;
-  top: 57%;
+  top: 53%;
   left: 17%;
   transform: translate(-50%, -50%);
   color: #0a97fe;
@@ -1417,11 +1416,11 @@ h4 {
   background-position-y: 100%;
 }
 #section8 .sec08 .script .script_04 .script_txt em {
-  font-size: 10vw;
+  font-size: 7vw;
 }
 #section8 .sec08 .script .script_04 .txt_line{
-  top: 42%;
-  left: 46%;
+  top: 39%;
+  left: 47%;
 }
 
 /* script05 */
