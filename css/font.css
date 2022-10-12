@@ -11,6 +11,11 @@
   src: url(../fonts/GmarketSansTTFMedium.ttf);
 }
 
+@font-face {
+  font-family: "Teko";
+  src: url(../fonts/Teko.ttf);
+}
+
 .questrial_font {
   font-family: Questrial;
 }
